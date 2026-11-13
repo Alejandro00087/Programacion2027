@@ -7,9 +7,9 @@ public class EJ19 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Introduce un año: ");
-        int año = sc.nextInt();
+        int anyo = sc.nextInt();
 
-        if ((año % 4 == 0 && año % 100 != 0) || año % 400 == 0) {
+        if ((anyo % 4 == 0 && anyo % 100 != 0) || anyo % 400 == 0) {
             System.out.println("El año es bisiesto");
         } else {
             System.out.println("El año no es bisiesto");
